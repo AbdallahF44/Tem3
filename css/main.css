@@ -540,6 +540,7 @@ body {
 .sec-seven .boxes .box {
     display: flex;
     height: 260px;
+    width: 260px;
     padding: 10px;
     flex-direction: column;
     transition: 0.4s;
@@ -605,7 +606,7 @@ body {
 .footer {
     background-color: var(--main-color);
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(18%, 1fr));
     gap: 20px;
     position: relative;
     overflow: hidden;
